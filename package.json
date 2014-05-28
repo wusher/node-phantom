@@ -1,19 +1,19 @@
 {
-  "author": "Alex Scheel Meyer (http://www.linkedin.com/in/alexscheelmeyer)",
-  "name": "node-phantom",
+  "author": "wusher forked from Alex Scheel Meyer (http://www.linkedin.com/in/alexscheelmeyer)",
+  "name": "node-phantom-versioned",
   "description": "bridge between node.js and PhantomJS",
   "version": "0.2.5",
   "homepage": "https://github.com/alexscheelmeyer/node-phantom",
   "repository": {
     "type": "git",
-    "url": "git://github.com/alexscheelmeyer/node-phantom.git"
+    "url": "git://github.com/wusher/node-phantom.git"
   },
   "main": "node-phantom.js",
   "scripts": {
     "test": "mocha"
   },
   "dependencies": {
-    "socket.io": ">=0.9.6"
+    "socket.io": "0.9.6"
   },
   "devDependencies": {
      "mocha": "*",
